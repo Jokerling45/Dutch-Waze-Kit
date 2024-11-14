@@ -20,7 +20,7 @@ let openInWegstatus = {
         if(zoom > 7) zoom = 7;
 
         // Create and open URL
-        let url = 'https://www.wegstatus.nl/dashboardnl/lat=' + coordinates.y + '|lon=' + coordinates.x;
+        let url = 'https://www.wegstatus.nl/dashboardnl_old/lat=' + coordinates.y + '|lon=' + coordinates.x;
         window.open(url, '_blank');
     }
 };
